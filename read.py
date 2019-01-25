@@ -25,7 +25,7 @@ def apply_threshold(img, argument):
 with anki_vector.Robot(enable_camera_feed=True) as robot:
 
     robot.behavior.set_eye_color(hue=0.83, saturation=0.76)
-    robot.behavior.set_head_angle(degrees(30.0))
+    robot.behavior.set_head_angle(degrees(20.0))
     robot.behavior.set_lift_height(0.0)
 
     robot.say_text("Show me the text to read!")
